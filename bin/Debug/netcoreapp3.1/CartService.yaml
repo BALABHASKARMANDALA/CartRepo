@@ -14,11 +14,11 @@ spec:
     spec:
       containers:
       - name: cartrepos
-        image: truyumcr.azurecr.io/cartrepos:latest
+        image: truyumappcr.azurecr.io/cartrepos:latest
         ports:
         - containerPort: 8080
       imagePullSecrets:
-      - name: truyumsn
+      - name: truyumappsn
 
 ---
 apiVersion: v1
